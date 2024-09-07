@@ -18,9 +18,24 @@ MonoBehaviour:
   localRotation: {x: 0, y: 0, z: 0}
   weaponModel: {fileID: 0}
   attacks:
-  - attackType: 1
+  - attackType: 0
     minDistance: 0
     maxDistance: 1
+    healthThreshold: 100
+    attacks:
+    - attack: {fileID: 11400000, guid: 2a854216a928825448c7a7af7a584069, type: 2}
+      canBeCharged: 0
+      chargedAttack: {fileID: 0}
+    attack:
+      attack: {fileID: 11400000, guid: 2a854216a928825448c7a7af7a584069, type: 2}
+      canBeCharged: 1
+      chargedAttack: {fileID: 11400000, guid: 901656de61e29934488a0370870f6df1, type: 2}
+    animationDistance: 2.2270656
+    serialized: 1
+  heavyAttacks:
+  - attackType: 1
+    minDistance: 0
+    maxDistance: 4
     healthThreshold: 100
     attacks:
     - attack: {fileID: 11400000, guid: a33616ea159230841a61fbf46c81a2f2, type: 2}
@@ -29,30 +44,18 @@ MonoBehaviour:
     - attack: {fileID: 11400000, guid: 8ffbc83747ed52649af0b4d58fc405b5, type: 2}
       canBeCharged: 0
       chargedAttack: {fileID: 0}
-    - attack: {fileID: 11400000, guid: 1ee22c6bea4c2d4428672ddd654badb3, type: 2}
-      canBeCharged: 1
-      chargedAttack: {fileID: 11400000, guid: 901656de61e29934488a0370870f6df1, type: 2}
-    attack:
-      attack: {fileID: 11400000, guid: a33616ea159230841a61fbf46c81a2f2, type: 2}
+    - attack: {fileID: 11400000, guid: 7bd7e4cbc33e2f0488ecb08bbaa4bfbe, type: 2}
       canBeCharged: 0
       chargedAttack: {fileID: 0}
-    animationDistance: 1.2071629
-    serialized: 1
-  - attackType: 0
-    minDistance: 0
-    maxDistance: 1
-    healthThreshold: 100
-    attacks:
     - attack: {fileID: 11400000, guid: 901656de61e29934488a0370870f6df1, type: 2}
       canBeCharged: 0
       chargedAttack: {fileID: 0}
     attack:
-      attack: {fileID: 11400000, guid: 901656de61e29934488a0370870f6df1, type: 2}
-      canBeCharged: 1
-      chargedAttack: {fileID: 11400000, guid: 3459c52e21fe9374c8ef5981538b4f54, type: 2}
-    animationDistance: 1.2071629
+      attack: {fileID: 0}
+      canBeCharged: 0
+      chargedAttack: {fileID: 0}
+    animationDistance: 0
     serialized: 1
-  heavyAttacks: []
   reactionData: {fileID: 0}
   weaponEquipAnimation: {fileID: 3321173135709547491, guid: 86503f8ec5489a84fbe3f751d0b02290, type: 3}
   weaponActivationTime: 0
