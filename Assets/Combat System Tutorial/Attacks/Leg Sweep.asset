@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a22ac9caa4e533841a4b3676a5b8a7ef, type: 3}
-  m_Name: Knockdown Uppercut
+  m_Name: Leg Sweep
   m_EditorClassIdentifier: 
-  clip: {fileID: 7400000, guid: 17a7be5773fb1644b9daa8d7cf61a811, type: 3}
+  clip: {fileID: 7400000, guid: 73179012ee0a7e1438e5a6b6055df716, type: 2}
   animationSpeed: 1
   isFinisher: 0
-  canHitMultipleTargets: 0
+  canHitMultipleTargets: 1
   rotateToTarget: 1
   hitDirection: 1
   reactionTag: 
   overrideReaction: 1
   reaction:
-    animationClip: {fileID: 3373424633236998901, guid: 6e045a843ff69ef4b91a0eb0c353537b, type: 3}
-    willBeKnockedDown: 1
+    animationClip: {fileID: 5560541404274110434, guid: 40713fc72995d3c40ad680572a393d7e, type: 3}
+    willBeKnockedDown: 0
     knockDownDirection: 0
-    lyingDownTimeRange: {x: 15, y: 18}
+    lyingDownTimeRange: {x: 1, y: 3}
     overrideLyingDownAnimation: 0
     lyingDownAnimation: {fileID: 0}
     getUpAnimation: {fileID: 0}
@@ -47,10 +47,10 @@ MonoBehaviour:
   rotationOffsetInBlocked: 0
   canBeCountered: 0
   counterAttacks: []
-  hitboxToUse: 2
+  hitboxToUse: 3
   damage: 5
-  impactStartTime: 0.25
-  impactEndTime: 0.44
+  impactStartTime: 0.39
+  impactEndTime: 0.43
   waitForNextAttack: 0
   waitForAttackTime: 0
   moveToTarget: 0
