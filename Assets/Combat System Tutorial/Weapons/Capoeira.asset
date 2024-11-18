@@ -29,8 +29,36 @@ MonoBehaviour:
     attack:
       attack: {fileID: 11400000, guid: 2a854216a928825448c7a7af7a584069, type: 2}
       canBeCharged: 1
-      chargedAttack: {fileID: 11400000, guid: 901656de61e29934488a0370870f6df1, type: 2}
-    animationDistance: 2.2270656
+      chargedAttack: {fileID: 11400000, guid: 39eb7bcb9fdd91344a81ac344bc1c292, type: 2}
+    animationDistance: 0.91431534
+    serialized: 1
+  - attackType: 3
+    minDistance: 0
+    maxDistance: 5
+    healthThreshold: 100
+    attacks:
+    - attack: {fileID: 11400000, guid: 5387025e06d47f049a99331b42b57210, type: 2}
+      canBeCharged: 0
+      chargedAttack: {fileID: 0}
+    attack:
+      attack: {fileID: 11400000, guid: 5387025e06d47f049a99331b42b57210, type: 2}
+      canBeCharged: 0
+      chargedAttack: {fileID: 11400000, guid: 39eb7bcb9fdd91344a81ac344bc1c292, type: 2}
+    animationDistance: 0.91431534
+    serialized: 1
+  - attackType: 2
+    minDistance: 1
+    maxDistance: 3
+    healthThreshold: 100
+    attacks:
+    - attack: {fileID: 11400000, guid: e3962e36492ff0040b23cf4ccdcb8d39, type: 2}
+      canBeCharged: 0
+      chargedAttack: {fileID: 0}
+    attack:
+      attack: {fileID: 11400000, guid: e3962e36492ff0040b23cf4ccdcb8d39, type: 2}
+      canBeCharged: 0
+      chargedAttack: {fileID: 11400000, guid: 39eb7bcb9fdd91344a81ac344bc1c292, type: 2}
+    animationDistance: 1.7241826
     serialized: 1
   heavyAttacks:
   - attackType: 1
