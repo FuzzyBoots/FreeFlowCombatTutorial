@@ -48,7 +48,7 @@ MonoBehaviour:
   canBeCountered: 0
   counterAttacks: []
   hitboxToUse: 2
-  damage: 5
+  damage: 10
   impactStartTime: 0.25
   impactEndTime: 0.44
   waitForNextAttack: 0

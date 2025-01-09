@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hitbox
+  - FootTrigger
   layers:
   - Default
   - TransparentFX
@@ -17,9 +18,9 @@ TagManager:
   - Player
   - Enemy
   - VisionSensor
+  - FootTrigger
   - 
-  - 
-  - 
+  - GrappleLedge
   - 
   - 
   - 

@@ -1299,10 +1299,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1df305943fb092a4aa15c9a86a4b327a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 11400000, guid: 79fa9bb62201a9e49ab241349cf137f4, type: 2}
+  weapon: {fileID: 11400000, guid: 8669752d11a9bd342bcacceb7cd39882, type: 2}
   <MaxHealth>k__BackingField: 25
   rotationSpeedDuringAttack: 500
-  <PreferredFightingRange>k__BackingField: 3
+  <PreferredFightingRange>k__BackingField: 2
   defaultAnimations:
     hitReactionData: {fileID: 11400000, guid: 6036ddc2962f52e47ba682d6078af963, type: 2}
     blockedReactionData: {fileID: 11400000, guid: c05e53600afde0e468c7f46d59ffed37, type: 2}
@@ -1356,10 +1356,11 @@ MonoBehaviour:
   <RunSpeed>k__BackingField: 4.5
   <CombatModeSpeed>k__BackingField: 2
   chanceForBlockingAttack: 25
+  chanceForRetreatAfterAttack: 75
   obstacleMask:
     serializedVersion: 2
     m_Bits: 1
-  currState: 0
+  currState: 1
 --- !u!114 &285945948242203035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1412,8 +1413,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b4d3d256d11ac549962d0bd26412524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backwardWalkSpeed: 1.5
-  distanceToRetreat: 3
+  backwardWalkSpeed: 3
+  distanceToRetreat: 5
 --- !u!114 &8525340624387299426
 MonoBehaviour:
   m_ObjectHideFlags: 0
